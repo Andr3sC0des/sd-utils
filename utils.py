@@ -4,5 +4,5 @@ def clone(webui_version):
 def name():
     return 'stable-diffusion-webui'
 
-def controlNet(PATH):
-    return f'git clone https://github.com/Mikubill/sd-webui-controlnet {PATH}/stable-diffusion-webui/extensions/sd-webui-controlnet'
+def controlNet():
+    return 'git clone https://github.com/Mikubill/sd-webui-controlnet /content/stable-diffusion-webui/extensions/sd-webui-controlnet'
